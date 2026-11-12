@@ -24,7 +24,6 @@ import { inspect } from 'node:util'
 
 export const name = 'dsh-log-sink'
 
-/** Уровни cordis идут в своём порядке: error=0, info=1, warn=2, debug=3. */
 // cordis numbers the levels error=0, warn=1, info=2, debug=3 — in that order and not
 // the alphabetical one. The array used to be ['E','I','W','D'], so every warning went
 // into the log as "I" and every informational line as "W": the letters were swapped

@@ -1,6 +1,6 @@
 {
   "name": "@dr-co/dsh-log-sink",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DSH plugin: send cordis logger output to stdout/journald and to a file, so plugin diagnostics stop disappearing into the in-memory buffer",
   "type": "module",
   "main": "./index.mjs",
@@ -10,7 +10,8 @@
   },
   "files": [
     "index.mjs",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "test": "node --test test/*.test.mjs"
@@ -18,6 +19,7 @@
   "keywords": [
     "dsh",
     "dsh-plugin",
+    "cordis",
     "logging"
   ],
   "license": "MIT",
@@ -30,5 +32,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unera/dsh-log-sink.git"
+  },
+  "homepage": "https://github.com/unera/dsh-log-sink#readme",
+  "bugs": {
+    "url": "https://github.com/unera/dsh-log-sink/issues"
   }
 }

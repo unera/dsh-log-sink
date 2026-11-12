@@ -2,6 +2,14 @@
 
 Route DeepSeek Harness (`cordis`) logger output to stdout and to a file.
 
+[![ci](https://github.com/unera/dsh-log-sink/actions/workflows/ci.yml/badge.svg)](https://github.com/unera/dsh-log-sink/actions/workflows/ci.yml)
+
+## Install
+
+```sh
+npm install @dr-co/dsh-log-sink
+```
+
 ## Why
 
 A `cordis` `LoggerService` registers exactly one exporter by default: a ring
@@ -33,7 +41,7 @@ purpose: a record split across lines cannot be grepped by reference id.
 | --- | --- | --- |
 | `stdout` | `true` | write each line to the process stdout (journald picks it up) |
 | `file` | `null` | also append to this file; parent directories are created |
-| `level` | `3` | cordis level threshold: `0` error, `1` +info, `2` +warn, `3` +debug |
+| `level` | `3` | cordis level threshold: `0` error, `1` +warn, `2` +info, `3` +debug |
 | `maxLineLength` | `8000` | truncate longer records |
 | `maxFileBytes` | `33554432` | rotate to `<file>.1` past this size (checked every 200 writes) |
 
