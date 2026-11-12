@@ -1,6 +1,6 @@
 {
   "name": "@dr-co/dsh-log-sink",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "DSH plugin: send cordis logger output to stdout/journald and to a file, so plugin diagnostics stop disappearing into the in-memory buffer",
   "type": "module",
   "main": "./index.mjs",
