@@ -36,5 +36,11 @@
   "homepage": "https://github.com/unera/dsh-log-sink#readme",
   "bugs": {
     "url": "https://github.com/unera/dsh-log-sink/issues"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.1.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.5 || ^4.1.0"
   }
 }
